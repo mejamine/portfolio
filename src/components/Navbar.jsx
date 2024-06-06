@@ -70,30 +70,30 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl hover:text-violet-600'>
+        <li className='py-6 text-3xl hover:text-violet-600'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl hover:text-violet-600'>
+        <li className='py-6 text-3xl hover:text-violet-600'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl hover:text-violet-600'>
+        <li className='py-6 text-3xl hover:text-violet-600'>
           {' '}
           <Link onClick={handleClick} to='education' smooth={true} duration={500}>
             Education
           </Link>
         </li>
-        <li className='py-6 text-4xl hover:text-violet-600'>
+        <li className='py-6 text-3xl hover:text-violet-600'>
           {' '}
           <Link onClick={handleClick} to='experience' smooth={true} duration={500}>
             Experience
           </Link>
         </li>
-        <li className='py-6 text-4xl hover:text-violet-600'>
+        <li className='py-6 text-3xl hover:text-violet-600'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
