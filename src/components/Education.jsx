@@ -19,15 +19,18 @@ const Skills = () => {
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center justify-center py-8'>
               <div className='shadow-md mt-10  shadow-[#cccccc] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={poly} alt="HTML icon" />
-                  <p className='my-4'>Computer Science Engineering</p>
+                  <p className='my-4'>Computer Science Engineering</p><br/>
+                  <p className='my-4'>Polytechnique Of Sousse</p>
               </div>
               <div className='shadow-md mt-10  shadow-[#cccccc] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={prepa} alt="HTML icon" />
-                  <p className='my-4'>Preparatory MP</p>
+                  <p className='my-4'>Preparatory MP</p><br/>
+                <p className='my-4'>Preparatory Institute for Engineering Studies of Monastir</p>
               </div>
               <div className='shadow-md mt-10  shadow-[#cccccc] hover:scale-110 duration-500'>
                   <img className='h-20 mx-auto' src={bac} alt="HTML icon" />
-                  <p className='my-4'>Bachelor degree Mathematics</p>
+                  <p className='my-4'>Bachelor degree Mathematics</p><br/>
+                <p className='my-4'>Ibn rachik high school Kairouan</p>
               </div>
           </div>
       </div>
